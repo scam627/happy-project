@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
+		<title>Andres</title>
+		<!-- Bootstrap styles -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<style>
+			.activate {
+				border-radius: 0px 20px 20px 0px;
+				margin-right: 17px;
+				background-color: #e4f0fb;
+			}
+			.activate > a {
+				color: #007bff;
+			}
+			.black {
+				color: black;
+			}
+			.option-menu {
+				border-radius: 0px 20px 20px 0px;
+				margin-right: 17px;
+			}
+			li.option-menu:hover {
+				background-color: #e4f0fb;
+			}
+			.container {
+				margin-left: 0px !important;
+				margin-right: 0px !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<section id="banner-section" class="border-down">
+				<div class="row">
+					<div class="col-1 m-3">
+						<i class="fas fa-angry"></i>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="container">
+			<section id="manage-section">
+				<div class="row">
+					<div class="col-5 col-md-3 px-0 border-right">
+						<ul class="nav flex-column">
+							<li class="nav-item option-menu activate">
+								<a class="nav-link black" href="#">Videos</a>
+							</li>
+							<li class="nav-item option-menu">
+								<a class="nav-link black" href="#">Encuestas</a>
+							</li>
+							<li class="nav-item option-menu">
+								<a class="nav-link black" href="#">Análisis</a>
+							</li>
+						</ul>
+					</div>
+					<div id="render" class="col-7 col-md-9">
+						<div class="row">
+							<form class="col-12" action="./services/save.php">
+								<div class="form-row">
+									<div class="col-md-6 mb-3">
+										<label for="validationServer01">Título</label>
+										<input
+											type="text"
+											class="form-control"
+											name="titulo"
+											placeholder="Título"
+											required
+										/>
+										<div class="valid-feedback"></div>
+									</div>
+									<div class="col-md-6 mb-3">
+										<label for="validationServer02">Código</label>
+										<input
+											type="text"
+											class="form-control"
+											name="codigo"
+											placeholder="Código"
+											required
+										/>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="col-md-12 mb-3">
+										<label for="validationServer02">Descripción</label>
+										<textarea class="form-control" name="descipcion">
+										</textarea>
+									</div>
+								</div>
+								<button class="btn btn-primary" type="submit">Añadir</button>
+							</form>
+							<!-- <div class="col-12 mt-2">
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="card bg-light mb-3">
+											<div
+												class="rounded-top embed-responsive embed-responsive-16by9"
+											>
+												<iframe
+													class="embed-responsive-item"
+													src="https://www.youtube.com/embed/${token}"
+													allowfullscreen
+												></iframe>
+											</div>
+											<div class="card-body">
+												<h5 class="card-title">${title}</h5>
+												<p class="card-text">
+													${description}
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"
+	></script>
+	<script src="./src/js/jquery-3.2.1.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"
+	></script>
+	<script src="./src/js/components.js"></script>
+</html>
