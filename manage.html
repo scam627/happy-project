@@ -69,25 +69,25 @@
 					</div>
 					<div id="render" class="col-7 col-md-9">
 						<div class="row">
-							<form class="col-12" action="./services/save.php">
+							<form class="col-12" action="./services/save.php" method="POST">
 								<div class="form-row">
 									<div class="col-md-6 mb-3">
-										<label for="validationServer01">Título</label>
+										<label>Título</label>
 										<input
 											type="text"
 											class="form-control"
-											name="titulo"
+											name="title"
 											placeholder="Título"
 											required
 										/>
 										<div class="valid-feedback"></div>
 									</div>
 									<div class="col-md-6 mb-3">
-										<label for="validationServer02">Código</label>
+										<label>Código</label>
 										<input
 											type="text"
 											class="form-control"
-											name="codigo"
+											name="token"
 											placeholder="Código"
 											required
 										/>
@@ -96,7 +96,7 @@
 								<div class="form-row">
 									<div class="col-md-12 mb-3">
 										<label for="validationServer02">Descripción</label>
-										<textarea class="form-control" name="descipcion">
+										<textarea class="form-control" name="description">
 										</textarea>
 									</div>
 								</div>
