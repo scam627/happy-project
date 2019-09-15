@@ -1,0 +1,30 @@
+.activate {
+	border-radius: 0px 20px 20px 0px;
+	margin-right: 17px;
+	background-color: #e4f0fb;
+}
+.activate > a {
+	color: #007bff !important;
+}
+.activate > a.black:hover {
+	border-radius: 0px 20px 20px 0px;
+	color: #007bff;
+	background-color: #e4f0fb;
+}
+.black {
+	color: black;
+}
+a.black:hover {
+	color: black;
+}
+.option-menu {
+	border-radius: 0px 20px 20px 0px;
+	margin-right: 17px;
+}
+li.option-menu:hover {
+	background-color: #e7e9ea;
+}
+.container {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
