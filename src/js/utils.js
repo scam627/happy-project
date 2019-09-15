@@ -90,3 +90,9 @@ $(".nav-item.option-menu").on("click", function() {
 	$("#render").append(elem[$(this).attr("id")]);
 	startListen();
 });
+
+let pathEmoji = "./assets/emojis/theme-two/";
+
+$(".input-emoji").on("change", function() {
+	$(".emoji").attr("src", `${pathEmoji}${$(this).val()}.png`);
+});
