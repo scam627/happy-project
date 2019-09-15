@@ -9,10 +9,10 @@ function getMediaComponent(token, description, title) {
                 ></iframe>
             </div>
             <div class="card-body">
-                <h5 class="card-title">${title}</h5>
-                <p class="card-text">
-                    ${description}
-                </p>
+                <h5>${title}</h5>
+                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="${description}">
+                Descripción
+                </button>
             </div>
         </div>
     </div>`;
@@ -35,4 +35,8 @@ function deployMedia() {
 	});
 }
 
-deployMedia();
+// deployMedia();
+
+$(function() {
+	$('[data-toggle="popover"]').popover();
+});
