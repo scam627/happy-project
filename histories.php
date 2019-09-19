@@ -1,3 +1,11 @@
+<?php include "./config_db.php";?>
+<!-- Query -->
+<?php
+    $reponse = [];
+    $result = $conn->query("SELECT token, description, title FROM videos");
+    while($row = $result->fetch_array(MYSQLI_ASSOC))
+        $response[] = $row;
+?>
 <?php include "./templates/header.php";?>
 <section id="banner">
     <div class="pos-f-t">
@@ -21,49 +29,42 @@
         </nav>
     </div>
 </section>
-<section id="intro">
-    <div class="bg-warning">
+<!-- <section id="intro">
+    <div class="bg-light">
         <div class="container">
             <div id="scene">
                 <div data-depth="1.00">
                     <img src="./assets/images/andres-person.png" />
                 </div>
-                <!-- <div data-depth="1.00"><img src="./pages/images/layer1.png" /></div>
+                <div data-depth="1.00"><img src="./pages/images/layer1.png" /></div>
                 <div data-depth="0.80"><img src="./pages/images/layer2.png" /></div>
                 <div data-depth="0.60"><img src="./pages/images/layer3.png" /></div>
                 <div data-depth="0.40"><img src="./pages/images/layer4.png" /></div>
                 <div data-depth="0.20"><img src="./pages/images/layer5.png" /></div>
-                <div data-depth="0.00"><img src="./pages/images/layer6.png" /></div> -->
+                <div data-depth="0.00"><img src="./pages/images/layer6.png" /></div>
             </div>
         </div>
     </div>
-</section>
-<!-- <section>
-			<div class="container">
-				<div class="row mt-5" style="height: 200px;">
-					<div class="col-12 col-md-6 d-flex justify-content-center">
-						<img
-							src="./assets/images/deck.jpg"
-							class="rounded-circle img-thumbnail"
-							alt="Responsive image"
-							style="width: 300px; height: 300px;"
-						/>
-					</div>
-					<div class="col-12 col-md-6 h-70 d-inline-block">
-						<img
-							src="./assets/images/layer1.png"
-							class="rounded img-thumbnail"
-							alt="Responsive image"
-						/>
-					</div>
-				</div>
-			</div>
-		</section> -->
-<section id="media">
-    <div class="container mt-3 position-abso bg-white">
-        <div class="row" id="media-deploy">
-            <?php ?>
+</section> -->
+<section id="media" style="margin-top: 80px;">
+    <div class="row mx-1 mt-2 d-flex justify-content-center" id="media-deploy">
+        <?php foreach( $response as $arr => $values) { ?>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="card bg-light mb-3">
+                <div class="rounded-top embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/<?php echo $values['token']?>" allowfullscreen></iframe>
+                </div>
+                <div class="card-body">
+                    <h5><?php echo $values['title']?></h5>
+                    <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+                        data-placement="bottom" data-content="<?php echo $values['description']?>">
+                        Descripción
+                    </button>
+                </div>
+            </div>
         </div>
+        <?php } ?>
     </div>
 </section>
 <?php include "./templates/footer.php";?>

@@ -21,7 +21,7 @@ function getMediaComponent(token, description, title) {
 
 function deployMedia() {
 	jQuery.ajax({
-		url: "http://localhost/freelancer/happy-project/services/get-videos.php",
+		url: `${values["urlApi"]}get_videos.php`,
 		success: function(result) {
 			const response = JSON.parse(result);
 			let element = document.getElementById("media-deploy");
@@ -34,8 +34,6 @@ function deployMedia() {
 		}
 	});
 }
-
-// deployMedia();
 
 $(function() {
 	$('[data-toggle="popover"]').popover();
