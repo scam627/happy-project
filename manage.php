@@ -38,6 +38,9 @@
 						<li id="analisis" class="nav-item option-menu">
 							<a class="nav-link black">Análisis</a>
 						</li>
+						<li id="analisis" class="nav-item option-menu">
+							<a class="nav-link black">Mensajes</a>
+						</li>
 					</ul>
 				</div>
 				<div id="render" class="col-7 col-md-9">

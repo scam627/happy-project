@@ -1,0 +1,14 @@
+{
+    "name": "stiven/happy-project",
+    "description": "Project to Andres Mauricio Jaramillo Alvarez",
+    "authors": [
+        {
+            "name": "scam627",
+            "email": "stiven.cardona627@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "4.0.0",
+        "components/font-awesome": "^5.9"
+    }
+}

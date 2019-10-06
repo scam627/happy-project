@@ -1,0 +1,51 @@
+@media (min-width: 576px) and (max-width: 992px) {
+	h1 {
+		font-size: 48px;
+		line-height: 55px;
+	}
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.mx-6 {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+}
+
+@media (min-width: 993px) {
+	h1 {
+		font-size: 56px;
+		line-height: 65px;
+	}
+
+	h2 {
+		font-size: 40px;
+		line-height: 35px;
+	}
+	.mx-6 {
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
+
+h1,
+h2 {
+	font-family: "Montserrat", sans-serif;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 28px;
+}
+
+h4 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+
+.card-text {
+	font-size: 20px;
+}
