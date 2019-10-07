@@ -14,6 +14,7 @@
 	<!-- Material Icons -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- font familys -->
+	<link href="https://fonts.googleapis.com/css?family=Combo|Comfortaa|Coming+Soon&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Ubuntu&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 	<link rel='stylesheet' id='wp-editor-font-css'

@@ -32,9 +32,9 @@
 				<h4 class="mt-2">Transforma tu vida, dirige tu camino</h4>
 				<center>
 					<button data-toggle="modal" data-target="#contactame" type="button" style="border-radius: 30px"
-						class="btn btn-lg btn-light mt-2 rounded-pill">Contactame!!</button>
+						class="btn btn-lg btn-dark mt-2 rounded-pill">Contactame!!</button>
 				</center>
-				<h5 class="mt-4" style="font-family: 'Mansalva', sans-serif">Si quieres Mejorar La Felicidad o
+				<h5 class="mt-4" style="font-family: 'Coming Soon', cursive">Si quieres Mejorar La Felicidad o
 					Productividad de Tu
 					Vida o Tu Empresa</h5>
 			</div>
@@ -153,12 +153,28 @@
 </section>
 <section>
 	<div class="container-fluid bg-white">
-		<div class="row mt-5">
+		<div class="row my-5 mx-6">
+			<div class="col-12 text-center">
+				<h1>Empresas Felices</h1>
+			</div>
+		</div>
+		<div class="row mt-5  mx-6">
 			<div class="col-12 col-lg-4">
 				<div class="card mt-2">
-					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
+					<img src="./assets/images/bolicheria.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h4 class="card-title">Empresas felices</h4>
+						<h4 class="card-title">Bolicheria</h4>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+							the
+							card's content.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card card-hp mt-2">
+					<img src="./assets/images/green.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h4 class="card-title">Green</h4>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
 							the
 							card's content.</p>
@@ -169,18 +185,7 @@
 				<div class="card mt-2">
 					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
 					<div class="card-body">
-						<h4 class="card-title">Card title</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-lg-4">
-				<div class="card mt-2">
-					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4 class="card-title">Card title</h4>
+						<h4 class="card-title">Crea</h4>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
 							the
 							card's content.</p>
@@ -196,5 +201,25 @@
 			<?php ?>
 		</div>
 	</div>
+</section>
+<section>
+	<footer class="container-fluid bg-warning">
+		<nav class="navbar navbar-dark bg-warning shadow">
+			<button type="button" class="btn btn-dark">
+				<b>
+					!Mis historias¡
+				</b>
+			</button>
+			<span>Copyirght&#x00A9; Andrés Mauricio Jaramillo Alvarez 2019</span>
+			<ul class="mt-3">
+				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+						class="fab fa-instagram fa-2x"></i></a>
+				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+						class="fab fa-facebook fa-2x"></i></a>
+				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+						class="fab fa-twitter fa-2x"></i></a>
+			</ul>
+		</nav>
+	</footer>
 </section>
 <?php include "./templates/footer.php";?>
