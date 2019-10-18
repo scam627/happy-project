@@ -8,11 +8,12 @@
 			</div>
 		</div> -->
 		<nav class="navbar navbar-dark bg-warning fixed-top shadow">
-			<button type="button" class="btn btn-light">
+			<img src="./assets/images/logo_jara.png" alt="">
+			<!-- <button type="button" class="btn btn-light">
 				<b>
 					!Mis historias¡
 				</b>
-			</button>
+			</button> -->
 			<ul class="mt-3">
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-instagram fa-2x"></i></a>
@@ -206,11 +207,12 @@
 <section>
 	<footer class="container-fluid bg-warning">
 		<nav class="navbar navbar-dark bg-warning shadow">
-			<button type="button" class="btn btn-dark">
+			<img src="./assets/images/logo_jara.png" alt="">
+			<!-- <button type="button" class="btn btn-dark">
 				<b>
 					!Mis historias¡
 				</b>
-			</button>
+			</button> -->
 			<span>Copyirght&#x00A9; Andrés Mauricio Jaramillo Alvarez 2019</span>
 			<ul class="mt-3">
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
