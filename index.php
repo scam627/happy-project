@@ -155,7 +155,7 @@
 	<div class="container-fluid bg-white">
 		<div class="row my-5 mx-6">
 			<div class="col-12 text-center">
-				<h1>Empresas Felices</h1>
+				<h1>Empresas que te ayudan a ser mas feliz y productivo</h1>
 			</div>
 		</div>
 		<div class="row mt-5  mx-6">
