@@ -186,9 +186,10 @@
 					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="card-title">Crea</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
+						<p class="card-text text-left">CREA Consultores es una Startup pereirana fundada en el año
+							2018, y
+							especializada en desarrollar modelos comerciales y de servicio al cliente, articulando el
+							escenario digital para fortalecer las experiencias de cada marca.</p>
 					</div>
 				</div>
 			</div>
