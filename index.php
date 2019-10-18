@@ -126,7 +126,8 @@
 			<div class="col-lg-6">
 				<h2>Comó solucionar un problema?</h2>
 				<p>Todo en esta vida es una cuestión de actitud. Ver el vaso medio lleno o medio vacío depende
-					únicamente de TI.
+					únicamente de TI. Para ser feliz siempre debes verlo medio lleno, no dejes que tus preocupaciones o
+					tus pensamientos pesimistas te afecten
 				</p>
 			</div>
 		</div>
