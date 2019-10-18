@@ -181,7 +181,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-4">
+			<!-- <div class="col-12 col-lg-4">
 				<div class="card mt-2">
 					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
 					<div class="card-body">
@@ -192,7 +192,7 @@
 							escenario digital para fortalecer las experiencias de cada marca.</p>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
