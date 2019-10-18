@@ -19,7 +19,7 @@
 						class="fab fa-instagram fa-2x"></i></a>
 				<a href="https://www.facebook.com/andres.j.alvarez.12" style="color: black"><i
 						class="fab fa-facebook fa-2x"></i></a>
-				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+				<a href="https://www.youtube.com/channel/UCarmY6MEfYp31eTZPBcp2jg" style="color: black"><i
 						class="fab fa-youtube fa-2x"></i></a>
 			</ul>
 		</nav>
@@ -61,7 +61,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					<form>
+					<form method="post" action="./services/email.php">
 						<div class="form-group">
 							<label for="email" class="col-form-label">Correo:</label>
 							<input type="email" class="form-control" id="email" required>
@@ -74,7 +74,7 @@
 				</div>
 				<div class="modal-footer d-flex justify-content-center">
 					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
-					<button type="button" class="btn btn-warning">Enviar</button>
+					<button type="submit" class="btn btn-warning">Enviar</button>
 				</div>
 			</div>
 		</div>
