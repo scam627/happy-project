@@ -17,10 +17,10 @@
 			<ul class="mt-3">
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-instagram fa-2x"></i></a>
-				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+				<a href="https://www.facebook.com/andres.j.alvarez.12" style="color: black"><i
 						class="fab fa-facebook fa-2x"></i></a>
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
-						class="fab fa-twitter fa-2x"></i></a>
+						class="fab fa-youtube fa-2x"></i></a>
 			</ul>
 		</nav>
 	</div>
@@ -30,7 +30,7 @@
 		<div class="row mx-2" style="padding-top: 100px; padding-bottom: 50px">
 			<div class="col-xl-6 mb-3 mx-3">
 				<h1>Encuentra tu fórmula de la Felicidad y la Productividad</h1>
-				<h4 class="mt-2">Transforma tu vida, dirige tu camino</h4>
+				<!-- <h4 class="mt-2">Transforma tu vida, dirige tu camino</h4> -->
 				<center>
 					<button data-toggle="modal" data-target="#contactame" type="button" style="border-radius: 30px"
 						class="btn btn-lg btn-dark mt-2 rounded-pill">Contactame!!</button>
@@ -206,22 +206,22 @@
 </section>
 <section>
 	<footer class="container-fluid bg-warning">
-		<nav class="navbar navbar-dark bg-warning shadow">
-			<img src="./assets/images/logo_jara.png" alt="">
+		<nav class="navbar navbar-dark bg-warning shadow justify-content-center">
+			<!-- <img src="./assets/images/logo_jara.png" alt=""> -->
 			<!-- <button type="button" class="btn btn-dark">
 				<b>
 					!Mis historias¡
 				</b>
 			</button> -->
 			<span>Copyirght&#x00A9; Andrés Mauricio Jaramillo Alvarez 2019</span>
-			<ul class="mt-3">
+			<!-- <ul class="mt-3">
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-instagram fa-2x"></i></a>
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-facebook fa-2x"></i></a>
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-twitter fa-2x"></i></a>
-			</ul>
+			</ul> -->
 		</nav>
 	</footer>
 </section>
