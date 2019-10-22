@@ -3,7 +3,7 @@
 <?php if($_GET["status"] == "ok") { ?>
 <section>
 	<div class="justify-content-center">
-		<div class="ml-5 mb-5 col-lg-5 col-12 alert alert-success alert-dismissible fade show fixed-bottom"
+		<div class="ml-lg-5 ml-3 mb-5 col-lg-5 col-11 alert alert-success alert-dismissible fade show fixed-bottom"
 			role="alert">
 			<strong>Gracias por contactarme!</strong> He recibido tu mensaje.
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -15,7 +15,8 @@
 <?php } else { ?>
 <section>
 	<div class="justify-content-center">
-		<div class="ml-5 mb-5 col-lg-5 col-12 alert alert-danger alert-dismissible fade show fixed-bottom" role="alert">
+		<div class="ml-lg-5 ml-3 mb-5 col-lg-5 col-11 alert alert-danger alert-dismissible fade show fixed-bottom"
+			role="alert">
 			<strong>Ocurrio un problema!</strong> Tu mensaje no ha sido enviado.
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
