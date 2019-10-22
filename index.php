@@ -60,7 +60,7 @@
 				<!-- <h4 class="mt-2">Transforma tu vida, dirige tu camino</h4> -->
 				<center>
 					<button data-toggle="modal" data-target="#contactame" type="button" style="border-radius: 30px"
-						class="btn btn-lg btn-dark mt-2 rounded-pill">Contactame!!</button>
+						class="btn btn-lg btn-dark mt-2 rounded-pill">¡¡Contáctame!!</button>
 				</center>
 				<h5 class="mt-4" style="font-family: 'Coming Soon', cursive">Si quieres Mejorar La Felicidad o
 					Productividad de Tu
