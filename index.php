@@ -1,4 +1,29 @@
 <?php include "./templates/header.php";?>
+<?php if(isset($_GET["status"])) { ?>
+<?php if($_GET["status"] == "ok") { ?>
+<section>
+	<div class="justify-content-center">
+		<div class="ml-5 mb-5 col-5 alert alert-success alert-dismissible fade show fixed-bottom" role="alert">
+			<strong>Gracias por contactarme!</strong> He recibido tu mensaje.
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	</div>
+</section>
+<?php } else { ?>
+<section>
+	<div class="justify-content-center">
+		<div class="ml-5 mb-5 col-5 alert alert-danger alert-dismissible fade show fixed-bottom" role="alert">
+			<strong>Ocurrio un problema!</strong> Tu mensaje no ha sido enviado.
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	</div>
+</section>
+<?php } ?>
+<?php } ?>
 <section id="banner">
 	<div class="pos-f-t">
 		<!-- <div class="collapse" id="navbarToggleExternalContent">
@@ -139,7 +164,7 @@
 	<div class="container-fluid pb-4 bg-warning">
 		<div class="row my-5 mx-6">
 			<div class="col-lg-8">
-				<h1>Solicitar seguimiento</h1>
+				<h1>El café te hace feliz ?</h1>
 			</div>
 		</div>
 		<div class="row mt-4 mx-6">
