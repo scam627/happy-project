@@ -64,20 +64,22 @@
 					<form method="post" action="./services/email.php">
 						<div class="form-group">
 							<label for="email" class="col-form-label">Correo:</label>
-							<input type="email" class="form-control" id="email" required>
+							<input name="email" type="email" class="form-control" id="email" required>
 						</div>
+						<label for="message" class="col-form-label">Mensaje:</label>
 						<div class="form-group">
-							<label for="message" class="col-form-label">Mensaje:</label>
-							<textarea class="form-control" id="message" required></textarea>
+							<textarea name="mensaje" class="form-control" id="message" required></textarea>
+						</div>
+						<div class="d-flex justify justify-content-center">
+							<button type="submit" class="btn btn-warning">Enviar</button>
+							<button type="button" class="btn btn-outline-secondary ml-1"
+								data-dismiss="modal">Cancelar</button>
 						</div>
 					</form>
 				</div>
-				<div class="modal-footer d-flex justify-content-center">
-					<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cancelar</button>
-					<button type="submit" class="btn btn-warning">Enviar</button>
-				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 </section>
 <section>
@@ -183,7 +185,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4">
 				<div class="card mt-2">
 					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
 					<div class="card-body">
@@ -194,7 +196,7 @@
 							escenario digital para fortalecer las experiencias de cada marca.</p>
 					</div>
 				</div>
-			</div> -->
+			</div>
 		</div>
 	</div>
 </section>
