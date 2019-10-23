@@ -186,7 +186,8 @@
 			<div class="col-lg-6">
 				<h2>Porqué el café nos hace felices</h2>
 				<br>
-				<p>El consumo del café ayuda a prevenir los problemas emocionales ya que estimula la producción de
+				<p class="text-minor">El consumo del café ayuda a prevenir los problemas emocionales ya que estimula la
+					producción de
 					serotonina y dopa mina consideradas como las hormonas de la felicidad. El café tiene la capacidad de
 					proporcionarnos sensación de bienestar, las personas que consumimos de dos a cuatro tazas al día
 					tenemos una vida más positiva porque la cafeína puede acceder a casi todos los sistemas de
