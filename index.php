@@ -81,7 +81,7 @@
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header bg-warning">
 					<h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -91,7 +91,17 @@
 					<form method="post" action="./services/email.php">
 						<div class="form-group">
 							<label for="email" class="col-form-label">Correo:</label>
-							<input name="email" type="email" class="form-control" id="email" required>
+							<input name="email" type="email" class="form-control" id="email">
+						</div>
+						<div class="row">
+							<div class="col-6 form-group">
+								<label for="name" class="col-form-label">Nombre:</label>
+								<input name="name" type="text" class="form-control" id="name" required>
+							</div>
+							<div class="col-6 form-group">
+								<label for="telfono" class="col-form-label">Teléfono:</label>
+								<input name="telefono" type="number" class="form-control" id="telefono">
+							</div>
 						</div>
 						<label for="message" class="col-form-label">Mensaje:</label>
 						<div class="form-group">
@@ -166,17 +176,23 @@
 	<div class="container-fluid pb-4 bg-warning">
 		<div class="row my-5 mx-6">
 			<div class="col-lg-8">
-				<h1>El café te hace feliz ?</h1>
+				<h1>¿ El café te hace feliz ?</h1>
 			</div>
 		</div>
-		<div class="row mt-4 mx-6">
-			<div class="col-lg-6">
-				<img src="./assets/images/phone-capture.png" class="img-fluid">
+		<div class="row mt-4 mx-4">
+			<div class="col-lg-6 mb-3">
+				<img src="./assets/images/andres_cata_cafe.png" class="img-fluid">
 			</div>
 			<div class="col-lg-6">
-				<h2>Where does it come from?</h2>
-				<p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-					standard dummy text ever since the 1500s, when an unknown printer took a galley of type.
+				<h2>Porqué el café nos hace felices</h2>
+				<br>
+				<p>El consumo del café ayuda a prevenir los problemas emocionales ya que estimula la producción de
+					serotonina y dopa mina consideradas como las hormonas de la felicidad. El café tiene la capacidad de
+					proporcionarnos sensación de bienestar, las personas que consumimos de dos a cuatro tazas al día
+					tenemos una vida más positiva porque la cafeína puede acceder a casi todos los sistemas de
+					recompensa reconocidos para el cerebro, esta bebida genera placer en todo nuestro cuerpo reduce la
+					incidencia de los pensamientos negativos y nos ayuda a estar más felices y contentos. Por eso
+					podemos decir que el café nos hace felices
 				</p>
 			</div>
 		</div>
@@ -195,9 +211,10 @@
 					<img src="./assets/images/bolicheria.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="card-title">Bolicheria</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
+						<p class="card-text">Para ser Feliz y Productivo debes tener un equilibrio en Tu vida. No todo
+							puede ser trabajo y por eso decidimos crear en el año 2010 un centro de diversiones para
+							compartir con la familia y amigos.
+							Aquí tendrás una experiencia inolvidable</p>
 					</div>
 				</div>
 			</div>
@@ -206,9 +223,10 @@
 					<img src="./assets/images/green.jpg" class="card-img-top" alt="...">
 					<div class="card-body">
 						<h4 class="card-title">Green</h4>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
-							the
-							card's content.</p>
+						<p class="card-text">
+							Muchos estudios han demostrado que la alimentación y las emociones están directamente
+							relacionados, dependiendo de como te sientas, comes de una manera u otra, y depende de lo
+							que comas puedes mejorar o empeorar tu estado emocional.</p>
 					</div>
 				</div>
 			</div>
