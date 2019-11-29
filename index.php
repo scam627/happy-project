@@ -133,39 +133,6 @@
 				</p>
 			</div>
 		</div>
-		<div class="row mt-4 mx-6">
-			<div class="col-lg-6 d-lg-none mb-1 mx-3 embed-responsive embed-responsive-16by9"
-				style="border-radius: 20px">
-				<iframe width="480" height="270" src="https://www.powtoon.com/embed/f6cFluO2cNT/"
-					frameborder="0"></iframe>
-				<!-- https://www.powtoon.com/embed/e0FPOMhoNse/ -->
-				<!-- <img src="./assets/images/andres-two.png" class="img-fluid"> -->
-			</div>
-			<div class="col-lg-6">
-				<h2></h2>
-				<p>Tipping Points o Puntos de Quiebre, que no son otra cosa, que los momentos de cambio en la vida, esos
-					sucesos que construyen a los seres humanos y a los que definitivamente les debemos gratitud.
-				</p>
-			</div>
-			<div class="col-lg-6 d-none d-lg-block embed-responsive"
-				style="border-radius: 20px;height: 310px;margin-top: inherit;">
-				<iframe width="480" height="270" src="https://www.powtoon.com/embed/e0FPOMhoNse/"
-					frameborder="0"></iframe>
-				<!-- <img src="./assets/images/andres-two.png" class="img-fluid"> -->
-			</div>
-		</div>
-		<div class="row mt-4 mx-6">
-			<div class="col-lg-6">
-				<img src="./assets/images/andres-four.png" class="img-fluid">
-			</div>
-			<div class="col-lg-6">
-				<h2>Comó solucionar un problema?</h2>
-				<p>Todo en esta vida es una cuestión de actitud. Ver el vaso medio lleno o medio vacío depende
-					únicamente de TI. Para ser feliz siempre debes verlo medio lleno, no dejes que tus preocupaciones o
-					tus pensamientos pesimistas te afecten
-				</p>
-			</div>
-		</div>
 	</div>
 </section>
 <section id="media">
