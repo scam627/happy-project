@@ -42,12 +42,8 @@
 				</b>
 			</button> -->
 			<ul class="mt-3">
-				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
+				<a href="https://www.instagram.com/juanpagil/" style="color: black"><i
 						class="fab fa-instagram fa-2x"></i></a>
-				<a href="https://www.facebook.com/andres.j.alvarez.12" style="color: black"><i
-						class="fab fa-facebook fa-2x"></i></a>
-				<a href="https://www.youtube.com/channel/UCarmY6MEfYp31eTZPBcp2jg" style="color: black"><i
-						class="fab fa-youtube fa-2x"></i></a>
 			</ul>
 		</nav>
 	</div>
@@ -128,7 +124,7 @@
 		</div> -->
 		<div class="row mt-4 mx-6">
 			<div class="col-lg-6">
-				<img src="./assets/images/andres-one.png" class="img-fluid">
+				<img src="./assets/images/juangil.jpg" class="img-fluid">
 			</div>
 			<div class="col-lg-6">
 				<h2>Tipping Points</h2>
