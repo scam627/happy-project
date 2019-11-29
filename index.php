@@ -140,9 +140,9 @@
 		<div class="row mt-4 mx-6">
 			<div class="col-lg-6 d-lg-none mb-1 mx-3 embed-responsive embed-responsive-16by9"
 				style="border-radius: 20px">
-				<iframe width="480" height="270" src="https://www.powtoon.com/embed/e0FPOMhoNse/"
-					frameborder="0"></iframe>
-
+				<iframe width="480" height="270" src="https://www.powtoon.com/embed/f6cFluO2cNT/
+" frameborder="0"></iframe>
+				<!-- https://www.powtoon.com/embed/e0FPOMhoNse/ -->
 				<!-- <img src="./assets/images/andres-two.png" class="img-fluid"> -->
 			</div>
 			<div class="col-lg-6">
