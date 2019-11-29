@@ -35,7 +35,7 @@
 			</div>
 		</div> -->
 		<nav class="navbar navbar-dark bg-blue fixed-top shadow">
-			<img src="./assets/images/logo_jara.png" alt="">
+			<!-- <img src="./assets/images/logo_jara.png" alt=""> -->
 			<!-- <button type="button" class="btn btn-light">
 				<b>
 					!Mis historias¡
@@ -140,8 +140,8 @@
 		<div class="row mt-4 mx-6">
 			<div class="col-lg-6 d-lg-none mb-1 mx-3 embed-responsive embed-responsive-16by9"
 				style="border-radius: 20px">
-				<iframe width="480" height="270" src="https://www.powtoon.com/embed/f6cFluO2cNT/
-" frameborder="0"></iframe>
+				<iframe width="480" height="270" src="https://www.powtoon.com/embed/f6cFluO2cNT/"
+					frameborder="0"></iframe>
 				<!-- https://www.powtoon.com/embed/e0FPOMhoNse/ -->
 				<!-- <img src="./assets/images/andres-two.png" class="img-fluid"> -->
 			</div>
@@ -172,80 +172,6 @@
 		</div>
 	</div>
 </section>
-<section>
-	<div class="container-fluid pb-4 bg-blue">
-		<div class="row my-5 mx-6">
-			<div class="col-lg-8">
-				<h1>¿ El café te hace feliz ?</h1>
-			</div>
-		</div>
-		<div class="row mt-4 mx-4">
-			<div class="col-lg-6 mb-3">
-				<img src="./assets/images/andres_cata_cafe.png" class="img-fluid">
-			</div>
-			<div class="col-lg-6">
-				<h2>Porqué el café nos hace felices</h2>
-				<br>
-				<p class="text-minor">El consumo del café ayuda a prevenir los problemas emocionales ya que estimula la
-					producción de
-					serotonina y dopa mina consideradas como las hormonas de la felicidad. El café tiene la capacidad de
-					proporcionarnos sensación de bienestar, las personas que consumimos de dos a cuatro tazas al día
-					tenemos una vida más positiva porque la cafeína puede acceder a casi todos los sistemas de
-					recompensa reconocidos para el cerebro, esta bebida genera placer en todo nuestro cuerpo reduce la
-					incidencia de los pensamientos negativos y nos ayuda a estar más felices y contentos. Por eso
-					podemos decir que el café nos hace felices
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid bg-white">
-		<div class="row my-5 mx-6">
-			<div class="col-12 text-center">
-				<h1>Empresas que te ayudan a ser mas feliz y productivo</h1>
-			</div>
-		</div>
-		<div class="row mt-5  mx-6">
-			<div class="col-12 col-lg-4">
-				<div class="card mt-2">
-					<img src="./assets/images/bolicheria.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4 class="card-title">Bolicheria</h4>
-						<p class="card-text">Para ser Feliz y Productivo debes tener un equilibrio en Tu vida. No todo
-							puede ser trabajo y por eso decidimos crear en el año 2010 un centro de diversiones para
-							compartir con la familia y amigos.
-							Aquí tendrás una experiencia inolvidable</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-lg-4">
-				<div class="card card-hp mt-2">
-					<img src="./assets/images/green.jpg" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4 class="card-title">Green</h4>
-						<p class="card-text">
-							Muchos estudios han demostrado que la alimentación y las emociones están directamente
-							relacionados, dependiendo de como te sientas, comes de una manera u otra, y depende de lo
-							que comas puedes mejorar o empeorar tu estado emocional.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-12 col-lg-4">
-				<div class="card mt-2">
-					<img src="./assets/images/logo-crea.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<h4 class="card-title">Crea</h4>
-						<p class="card-text text-left">CREA Consultores es una Startup pereirana fundada en el año
-							2018, y
-							especializada en desarrollar modelos comerciales y de servicio al cliente, articulando el
-							escenario digital para fortalecer las experiencias de cada marca.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 <section id="media">
 	<div class="container mt-3 position-abso bg-white">
 		<div class="row" id="media-deploy">
@@ -262,7 +188,7 @@
 					!Mis historias¡
 				</b>
 			</button> -->
-			<span>Copyirght&#x00A9; Andrés Mauricio Jaramillo Alvarez 2019</span>
+			<span>Copyirght&#x00A9; Juan Pablo Gil 2019</span>
 			<!-- <ul class="mt-3">
 				<a href="https://www.instagram.com/andresjaramilloalvarez/" style="color: black"><i
 						class="fab fa-instagram fa-2x"></i></a>
