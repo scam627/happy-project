@@ -28,3 +28,7 @@ li.option-menu:hover {
 	margin-left: 0px !important;
 	margin-right: 0px !important;
 }
+
+.bg-blue {
+	background-color: #4285f4 !important;
+}
