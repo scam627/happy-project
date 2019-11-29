@@ -102,7 +102,7 @@
 							<textarea name="mensaje" class="form-control" id="message" required></textarea>
 						</div>
 						<div class="d-flex justify justify-content-center">
-							<button type="submit" class="btn btn-warning">Enviar</button>
+							<button type="submit" class="btn btn-info">Enviar</button>
 							<button type="button" class="btn btn-outline-secondary ml-1"
 								data-dismiss="modal">Cancelar</button>
 						</div>
