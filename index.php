@@ -29,12 +29,12 @@
 <section id="banner">
 	<div class="pos-f-t">
 		<!-- <div class="collapse" id="navbarToggleExternalContent">
-			<div class="bg-warning p-4">
+			<div class="bg-blue p-4">
 				<h5 class="text-white h4">aAndres Mauricio Jaramillo Alvarez</h5>
 				<span class="text-white">Toggleable via the navbar brand.</span>
 			</div>
 		</div> -->
-		<nav class="navbar navbar-dark bg-warning fixed-top shadow">
+		<nav class="navbar navbar-dark bg-blue fixed-top shadow">
 			<img src="./assets/images/logo_jara.png" alt="">
 			<!-- <button type="button" class="btn btn-light">
 				<b>
@@ -53,7 +53,7 @@
 	</div>
 </section>
 <section id="intro">
-	<div class="bg-warning container-fluid">
+	<div class="bg-blue container-fluid">
 		<div class="row mx-2" style="padding-top: 100px; padding-bottom: 50px">
 			<div class="col-xl-6 mb-3 mx-3">
 				<h1>Encuentra tu fórmula de la Felicidad y la Productividad</h1>
@@ -81,7 +81,7 @@
 		aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header bg-warning">
+				<div class="modal-header bg-blue">
 					<h5 class="modal-title" id="exampleModalLabel">Nuevo Mensaje</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
@@ -173,7 +173,7 @@
 	</div>
 </section>
 <section>
-	<div class="container-fluid pb-4 bg-warning">
+	<div class="container-fluid pb-4 bg-blue">
 		<div class="row my-5 mx-6">
 			<div class="col-lg-8">
 				<h1>¿ El café te hace feliz ?</h1>
@@ -254,8 +254,8 @@
 	</div>
 </section>
 <section>
-	<footer class="container-fluid bg-warning">
-		<nav class="navbar navbar-dark bg-warning shadow justify-content-center">
+	<footer class="container-fluid bg-blue">
+		<nav class="navbar navbar-dark bg-blue shadow justify-content-center">
 			<!-- <img src="./assets/images/logo_jara.png" alt=""> -->
 			<!-- <button type="button" class="btn btn-dark">
 				<b>
