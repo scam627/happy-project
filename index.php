@@ -52,15 +52,13 @@
 	<div class="bg-blue container-fluid">
 		<div class="row mx-2" style="padding-top: 100px; padding-bottom: 50px">
 			<div class="col-xl-6 mb-3 mx-3">
-				<h1>Encuentra tu fórmula de la Felicidad y la Productividad</h1>
+				<h1>La solución a tus problemas legales</h1>
 				<!-- <h4 class="mt-2">Transforma tu vida, dirige tu camino</h4> -->
 				<center>
 					<button data-toggle="modal" data-target="#contactame" type="button" style="border-radius: 30px"
-						class="btn btn-lg btn-dark mt-2 rounded-pill">¡¡Contáctame!!</button>
+						class="btn btn-lg btn-dark mt-2 rounded-pill">¡¡Escribeme!!</button>
 				</center>
-				<h5 class="mt-4" style="font-family: 'Coming Soon', cursive">Si quieres Mejorar La Felicidad o
-					Productividad de Tu
-					Vida o Tu Empresa</h5>
+				<h5 class="mt-4" style="font-family: 'Coming Soon', cursive">Si necesitas apoyo legal</h5>
 			</div>
 			<!-- <div class="col-xl-5 d-none d-lg-block mb-1 mx-3 embed-responsive embed-responsive-16by9"
 				style="border-radius: 20px">
@@ -127,9 +125,10 @@
 				<img src="./assets/images/juangil.jpg" class="img-fluid">
 			</div>
 			<div class="col-lg-6">
-				<h2>Tipping Points</h2>
-				<p>Mi Formula de la Felicidad y La Productividad es una charla que invita a la reflexión a través de un
-					recorrido por el tiempo en el que los participantes descubren sus Tipping Points
+				<h2>Juan Pablo Gil Lopez</h2>
+				<p>Un abogado con experiencia y pericia en el campo de las leyes, con aspiraciones para cambiar el
+					entorno social en el que vivimos, persistiendo ante las adversidades.
+
 				</p>
 			</div>
 		</div>
