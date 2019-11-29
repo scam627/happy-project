@@ -66,7 +66,7 @@
 					frameborder="0"></iframe>
 
 			</div> -->
-			<img class="col-xl-4 d-none d-lg-block rounded-circle" src="./assets/images/andres-banner-3.png"
+			<img class="col-xl-4 d-none d-lg-block rounded-circle" src="./assets/images/juangil-profile.jpg"
 				alt="Andrés" title="Andrés" height="400px" width="400px" />
 		</div>
 	</div>
